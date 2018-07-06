@@ -1,8 +1,8 @@
 body{
   background-image: url('images/background.jpg');
-  background-position: center;
   background-size: cover;
   color: white;
+  font-size: 1.5vw;
 }
 h1{
 font-family: 'Orbitron', sans-serif;
@@ -23,7 +23,9 @@ h3{
   font-weight: normal;
 font-family: 'Satisfy', cursive;
 }
-
+#qubedup_e{
+  width: 6vw;
+}
 #content{
   position: fixed;
   bottom:18%;
