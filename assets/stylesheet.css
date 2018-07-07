@@ -94,6 +94,9 @@ background-image: url('images/background.jpg');
     }
     .socials{
       margin:1em;
+      padding:1.5em;
+      width: 50%;
+      display: block;
     }
     #qubedup_e{
       width: 10.5vw;
