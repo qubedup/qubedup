@@ -95,6 +95,7 @@ background-image: url('images/background.jpg');
     .socials{
       margin:1em;
       padding:1.5em;
+      padding-top: 2em;
       width: 50%;
       display: block;
     }
