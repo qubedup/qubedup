@@ -66,6 +66,7 @@ font-weight: bold;
   margin-left: 0.5em;
   margin-right:0.5em;
   text-decoration: none;
+  display: inline-block;
 }
 .socials:hover{
     background-color:#3ddb77;
@@ -76,13 +77,29 @@ font-weight: bold;
   font-size: 1.5em;
   margin:1.5em;
 }
-/*
+
 @media only screen and (max-width: 770px) {
+html{
+  background-image: url('images/background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow:hidden;
+}
     body{
 background-image: url('images/background.jpg');
       background-size: cover;
+      background-repeat: no-repeat;
       color: white;
       font-size: 2.5vw;
     }
+    .socials{
+      margin:1em;
+    }
+    #qubedup_e{
+      width: 10.5vw;
+    }
+    #content{
+      left: 5%;
+      right:5%;
+    }
 }
-*/
