@@ -77,11 +77,11 @@ font-weight: bold;
   margin:1.5em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 770px) {
     body{
 background-image: url('images/background.jpg');
       background-size: cover;
       color: white;
-      font-size: 4vw;
+      font-size: 3vw;
     }
 }
