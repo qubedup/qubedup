@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px) {
+    body{
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      color: white;
+      font-size: 3vw;
+    }
+}
 body{
   background-image: url('images/background.jpg');
   background-size: cover;
