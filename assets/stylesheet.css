@@ -41,7 +41,7 @@ h5{
 margin-top:none;
 }
 #qubedup_e{
-  width: 6vw;
+  width: 7.25vw;
 }
 #content{
   position: fixed;
@@ -100,7 +100,7 @@ background-image: url('images/background.jpg');
       display: block;
     }
     #qubedup_e{
-      width: 10.5vw;
+      width: 11.5vw;
     }
     #content{
       left: 5%;
