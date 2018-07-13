@@ -6,10 +6,10 @@
 <body>
 
 <script>
-    function getVal(str) {
-    var v = window.location.search.match(new RegExp('(?:[\?\&]'+str+'=)([^&]+)'));
-    return v ? v[1] : null;
-}
+window.onload=function(){
+var arr = document.URL.match(/room=([0-9]+)/)
+var room = arr[1];
+    
 </script>
 </body>
 </html>
