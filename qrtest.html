@@ -6,9 +6,9 @@
 <body>
 
 <script>
-var arr = document.URL.match(/room=([0-9]+)/);
-var room = arr[1];
-return room;
+function getParam(param){
+  return new URLSearchParams(window.location.search).get(param);
+}
 </script>
 </body>
 </html>
