@@ -8,18 +8,19 @@
 <button onclick="getURL()">Get parameter</button>
 <script>
 function getURL(){
-var url=window.location.href;
+var url=window.location;
 switch (url){
-  case: "https://qubedup.com/qrtest.html?service=about"
+  case "https://qubedup.com/qrtest.html?service=about":
   window.location.replace("https://qubedup.com/about.html");
   break;
 
-  case: "https://qubedup.com/qrtest.html?service=redbubble"
+  case "https://qubedup.com/qrtest.html?service=redbubble":
   window.location.replace("https://redbubble.com");
   break;
 
   default:
 window.location.replace("https://qubedup.com");
+console.log(window.location);
 }
 
 }
