@@ -2,28 +2,26 @@
 <html>
 <head>
   <title>QRCodes</title>
+  <script>
+      window.onload=function(){
+  var url=window.location.href;
+  switch (url){
+    case "https://qubedup.com/qrtest.html?service=about":
+    window.location.href='https://qubedup.com/about.html';
+    break;
 
+    case "https://qubedup.com/qrtest.html?service=redbubble":
+    window.location.href='https://redbubble.com';
+    break;
+
+    default:
+  window.location.href='https://qubedup.com';
+  }
+
+  }
+  </script>
 </head>
 <body>
-<button onclick="getURL()">Get parameter</button>
-<script>
-    window.onload=function(){
-var url=window.location.href;
-switch (url){
-  case "https://qubedup.com/qrtest.html?service=about":
-  window.location.href='https://qubedup.com/about.html';
-  break;
 
-  case "https://qubedup.com/qrtest.html?service=redbubble":
-  window.location.href='https://redbubble.com';
-  break;
-
-  default:
-window.location.href='https://qubedup.com';
-console.log(window.location);
-}
-
-}
-</script>
 </body>
 </html>
