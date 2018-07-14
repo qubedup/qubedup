@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>QRCodes</title>
 
 </head>
 <body>
@@ -8,10 +9,17 @@
 <script>
 function getURL(){
 var url=window.location.href;
-if(url="https://qubedup.com/qrtest.html?a=2"){
-  console.log("sounds good.w")
-}else{
-  console.log(url);
+switch (url){
+  case: "https://qubedup.com/qrtest.html?service=about"
+  window.location.replace("https://qubedup.com/about.html");
+  break;
+
+  case: "https://qubedup.com/qrtest.html?service=redbubble"
+  window.location.replace("https://redbubble.com");
+  break;
+
+  default:
+window.location.replace("https://qubedup.com");
 }
 
 }
