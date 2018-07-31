@@ -47,8 +47,8 @@ margin-top:none;
   position: fixed;
   bottom:18%;
   top:10%;
-  left:25%;
-  right:25%;
+  left:15%;
+  right:15%;
 /*  border: 0.1em solid; */
 }
 
@@ -62,7 +62,7 @@ font-weight: bold;
   letter-spacing: 0.06em;
   padding-top:1.25em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
   margin-left: 0.5em;
   margin-right:0.5em;
   text-decoration: none;
